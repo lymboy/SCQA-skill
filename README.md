@@ -1,5 +1,7 @@
 # scqa-writer
 
+![License: MIT](https://img.shields.io/badge/license-MIT-green) ![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blue) ![中文](https://img.shields.io/badge/内容-中文-red)
+
 一个Claude Code skill，做中文技术内容的诊断、重写、润色和从零写作。
 
 和市面上的humanizer类工具不一样的地方：它不只在语言层删删改改，而是先修结构，再修论证，最后才磨语言。AI技术文章真正的病根不在词句，在更深的两层——骨架是提纲扩写（节与节没有论证关系），血肉是无本之木（判断后面没有亲手做过才写得出的证据）。只磨皮肤，改完还是AI文。
@@ -59,3 +61,8 @@ cp -r scqa-writer ~/.claude/skills/scqa-writer
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)，经blader/humanizer、op7418/Humanizer-zh汉化
 - [OUBIGFA/De-AI-Prompt-Enhancer](https://github.com/OUBIGFA/De-AI-Prompt-Enhancer-Writer-Booster-SKILL)的中文原生痕迹与量化门槛思路
 - [ai-zixun/humanizer-zh](https://github.com/ai-zixun/humanizer-zh)的翻译腔清单
+- 一篇范文（giffgaff使用指南）和一篇真实病例的对照分析，沉淀在references/exemplars.md
+
+## License
+
+[MIT](./LICENSE)
